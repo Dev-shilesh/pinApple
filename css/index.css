@@ -1,0 +1,357 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 100%;
+    height: 50px;
+    
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    padding: 5px 5px 5px 5px;
+   display: block;
+   float: left;
+
+}
+.logo h1{
+    
+    font-size: 28px;
+    padding-top: 11px
+}
+.nav{
+    background-color: yellow;
+    height: 50px;
+    padding-top: 10px;
+}
+.hamb{
+    width: 35px;
+    height: 30px;
+  /* border: 1px solid rgb(0, 0, 0);*/
+    border-radius: 2px;
+    margin-left: 5%;
+    padding-top: 2px;
+    margin-right: 28%;
+    float: left;
+    
+}
+.divider{
+    border: 2px solid black;
+    margin: 6px;
+    margin-top: 1px;
+}
+.nav input{
+    display: none;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+::placeholder{
+    color: black;
+    padding: 5px 5px 5px 5px;
+}
+#navul{
+    display: none;
+    list-style-type: none;
+    /*margin-left: 45%;
+    margin-top: -28px;*/
+}
+.contain{
+    margin-left:  10%;
+    margin-right: 10%;
+}
+#temph2{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#tempp{
+    font-size: x-small;
+    text-align: justify;
+}
+#tempp a{
+    text-decoration: none;
+    color: gold;
+}
+#tempbt{
+    margin-top: 20px;
+    margin-left: 70%;
+    margin-bottom: 10px;
+    padding: 4px 4px 4px 4px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+hr{
+    border-style: dashed;
+    color: lightslategray;
+}
+#imgh2{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+}
+.imgul{
+    list-style-type: none;
+
+}
+.img{
+    margin-left: 10%;
+}
+.imgli img{
+    width: 200px;
+    border: 15px solid white;
+    box-shadow: 0px 0px 5px 5px grey;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.imgname{
+    font-size: 16px;
+    margin-left: 18px;
+}
+.imgp{
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#imgbt{
+    margin-top: 20px;
+    margin-left: 60%;
+    margin-bottom: 10px;
+    padding: 4px 4px 4px 4px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+.foot{
+    width: 100%;
+    height: 450px;
+    background-image: url('../img/img.png');
+   
+}
+.ye{
+    width: 100%;
+    height: 521px;
+    
+    background: rgb(194, 194, 48, 0.9);
+}
+.about{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.aboutul{
+    list-style-type: none;
+    margin-left: 5%;
+    
+    
+}
+.infoh3{
+    font-size: 17px;
+    margin-left: 15px;
+    font-weight: lighter;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.infoli p{
+    font-size: 10px;
+    width: 85px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: left;
+}
+#soc{
+    width: 20px;
+    height: 20px;
+}
+.infoli{
+    float: left;
+    margin-left: 5px;
+}
+#fhr{
+    border: grey;
+}
+.ft{
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+#ftul{
+    list-style-type: none;
+    margin-left: 40px;
+}
+.ftli{
+    float: left;
+    font-size: 11px;
+    margin-left: 22px;
+    color: white;
+}
+#copys{
+    color: white;
+    font-size: 12px;
+    margin-top: 42px;
+    padding-left: 69px;
+    padding-right: 9px;
+   
+}
+@media screen and (min-width:768px){
+    .logo{
+        margin-left: 30px;
+    }
+    .hamb{
+        display: none;
+
+    }
+    #navul{
+        display: block;
+        margin-left: 60px;
+        
+    }
+    #navul li{
+        float: left;
+        padding: 5px 6px 5px 10px;
+        margin-left: 5px;
+    
+    }
+    #navul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+    #temph2{
+        font-size: 30px;
+    }
+    #tempp{
+        font-size: 16px;
+    }
+    #tempbt{
+        margin-left: 85%;
+        padding: 5px 5px 5px 5px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    .img{
+        margin-left: 5px;
+        
+    }
+    #imgh2{
+        font-size: 32px;
+        margin-left: 0px;
+        
+    }
+    .img1 ,.img2 ,.img3{
+        float: left;
+        margin-left: 60px;
+        
+    }
+    .imgli{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .imgname{
+        font-size: 18px;
+    }
+    .imgp{
+        font-size: 13px;
+       
+    }
+    #imgbt{
+        margin-left: 85%;
+        padding: 5px 5px 5px 5px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    .infoli p{
+        font-size: 14px;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: 400;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    #ftul{
+        list-style-type: none;
+     margin-left: 25%;
+    
+    }
+    .ftli{
+        float: left;
+     font-size: 14px;
+     margin-left: 20px;
+     color: white;
+    }
+    #copys{
+        color: white;
+        font-size: 13px;
+        margin-top: 40px;
+        padding-left: 30%;
+        padding-right: 9px;
+       
+    }
+} 
+@media screen and (min-width:1024px){
+    .logo{
+        margin-left: 64px;
+        height: 70px;
+    }
+    .logo h1{
+        font-size: 40px;
+    }
+    .logo img{
+        width: 74px;
+        height: 65px;
+    }
+    #navul{
+        margin-left: 10%;
+    }
+    
+    .nav input{
+        display: block;
+        margin-left: 70%;
+        height: 28px;
+    }
+    #tempp{
+        font-size: 20px;
+    }
+    #tempbt, #imgbt{
+        margin-left: 88%;
+        padding: 9px 9px 9px 9px;
+    }
+    .imgl ,.imgla{
+       float: left;
+       margin-left: 41px;
+    }
+    .imgname{
+        font-size: 20px;
+    }
+    .infoli p{
+        font-size: 18px
+    }
+    .infoh3{
+        font-size: 28px;
+    }
+    .ftli{
+        margin-left: 40px;
+    }
+    #copys{
+        margin-left: 60px;
+    }
+}   
